@@ -1,0 +1,138 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.3;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 64em) {
+  .container {
+    max-width: 53.75rem;
+    margin: 0 auto;
+  }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 0.9375rem 2.1875rem;
+  background-color: #5f5aff;
+  border: 4px solid #9595ff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button img {
+  width: 1rem;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header__heading {
+  padding-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+.choices__headings {
+  padding-top: 2rem;
+}
+
+.choices__headings h2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+@media (min-width: 64em) {
+  .choices__headings h2 {
+    font-size: 1.375rem;
+  }
+}
+
+.choices span {
+  color: #5f5aff;
+}
+
+.result span {
+  color: #5f5aff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 64em) {
+  .result span {
+    font-size: 1.375rem;
+  }
+}
+
+.footer {
+  padding-top: 5rem;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
